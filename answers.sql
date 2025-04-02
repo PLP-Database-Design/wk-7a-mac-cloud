@@ -1,4 +1,4 @@
-# Question 1 Achieving 1NF (First Normal Form)
+-- Question 1 Achieving 1NF (First Normal Form)
 
 SELECT OrderID, CustomerName, TRIM(product) AS Product
 FROM ProductDetail
@@ -12,14 +12,14 @@ OrderID	CustomerName	    Product
 103	    Emily Clark	       Phone
 
 
-# Question 2 Achieving 2NF (Second Normal Form) 
+-- Question 2 Achieving 2NF (Second Normal Form) 
 
 Orders Table:
 
 OrderID	  CustomerName
 101	      John Doe
 102	      Jane Smith
-103	     Emily Clark
+103	      Emily Clark
 
   
 OrderDetails Table:
